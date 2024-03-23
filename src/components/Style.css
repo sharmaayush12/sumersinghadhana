@@ -1,0 +1,254 @@
+
+.slider_img{
+    width: 100%;
+    height: 90vh;
+}
+
+.cs_sticky_header
+{
+    background-color: #ffffff6a;
+}
+
+.cs_site_branding img{
+    width: 100%;
+    height: 10vh;
+}
+
+.into_img
+{
+    border-radius: 200px;
+    width: 70%;
+}
+
+.cs_cta_in
+{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial_img{
+    width:20%;
+}
+.cs_cta.cs_style_2 .cs_cta_title{
+    font-family: Arial !important;
+    max-width:1200px !important;
+    border-radius: 150px;
+   
+}
+.cs_cta.cs_style_2 .cs_cta_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20px auto;
+    
+    background: White;
+    border-radius: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    transition: 1s box-shadow;
+  }
+  
+  .cs_cta.cs_style_2 .cs_cta_title:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  }
+  
+  .cs_cta.cs_style_2 .cs_cta_title:hover::before, .cs_cta.cs_style_2 .cs_cta_title:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    
+    background: #FDA8CF;
+    border-radius: 75px;
+    z-index: -1;
+    animation: 1s clockwise infinite;
+  }
+
+  .cs_cta.cs_style_2 .cs_cta_title:hover:after {
+    background: #F3CE5E;
+    animation: 2s counterclockwise infinite;
+  }
+/*   
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }
+.into_img {
+    border-radius:20px !important;
+    width:80% !important;
+    height:15em;
+}
+.into_img:hover {
+    filter: grayscale(100%);
+}
+    
+    .img{
+    border:0 !important;
+    max-width: 100% !important;
+    height: 250px !important;
+}
+
+
+.content {
+	position: relative;
+}
+
+.content h2 {
+	color: #fff;
+	font-size: 40px;
+	position: absolute;
+    transform: translate(100%, -100%);
+}
+
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px #8338ec;
+}
+
+.content h2:nth-child(2) {
+	color: #c19bf5;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+} */
+.photoSection{
+    height:100vh;
+    padding:200px 0 0 0;
+}
+
+.Allsection{
+    height:100vh;
+    padding:200px 0 0 0;
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+.Allsection-property{
+    height:100vh;
+    padding:200px 0 0 0;
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-image:url(../Assets/propbg.jpg);
+
+}
+#Glassmorfism{
+/* From https://css.glass */
+font-weight:bold;
+margin: 0 50px;
+padding:50px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(11.8px);
+-webkit-backdrop-filter: blur(11.8px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+#prop{
+    text-align: center;
+    font-weight: bold;
+}
